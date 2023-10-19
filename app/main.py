@@ -37,8 +37,29 @@ def get_section_info(section_id: str):
     if section_id == "a":
         return {
             "section": "section_name",
-            "start_time": "HH:MM",
-            "end_time": "HH:MM",
+            "start_time": "09:00",
+            "end_time": "09:50",
+            "ta": ["taName1", "taName2"]
+        }
+    elif section_id == "b":
+        return {
+            "section": "section_name",
+            "start_time": "10:00",
+            "end_time": "10:50",
+            "ta": ["taName1", "taName2"]
+        }
+    elif section_id == "c":
+        return {
+            "section": "section_name",
+            "start_time": "11:00",
+            "end_time": "11:50",
+            "ta": ["taName1", "taName2"]
+        }
+    elif section_id == "d":
+        return {
+            "section": "section_name",
+            "start_time": "12:00",
+            "end_time": "12:50",
             "ta": ["taName1", "taName2"]
         }
     else:
